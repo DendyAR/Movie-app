@@ -33,7 +33,6 @@ const Featured = ({ type }) => {
         <img
           src="https://occ-0-64-58.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABRKrgH8goki6B50_fsipiwG8-efCu0w57iY4KsMiMOkV_xpwmCR1bwdO-qexN7jGsMEEVHu_udqNGVab2eGM-RxjYidvNBjuWkAE.png?r=df1"
           alt=""
-          srcset=""
         />
         <span className="desc">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
