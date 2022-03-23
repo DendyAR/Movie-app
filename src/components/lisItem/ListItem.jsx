@@ -4,9 +4,9 @@ import {
   ThumbDownAltOutlined,
   ThumbUpAltOutlined,
 } from "@material-ui/icons";
-import axios from "axios";
-import { useState, useEffect } from "react";
-import { img_300, img_500, unavailable } from "../config/config";
+
+import { useState } from "react";
+import { img_300, unavailable } from "../config/config";
 import "./listitem.scss";
 
 const Listitem = ({

@@ -1,22 +1,21 @@
 import { useRef, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
 import FirstStep from "../../components/FormComponent/FirstStep";
 import "./register.scss";
 
 export default function Register() {
   const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  // const [password, setPassword] = useState("");
 
   const emailRef = useRef();
-  const passwordRef = useRef();
+  // const passwordRef = useRef();
 
   const handleStart = () => {
     setEmail(emailRef.current.value);
   };
 
-  const handleFinish = () => {
-    setPassword(passwordRef.current.value);
-  };
+  // const handleFinish = () => {
+  //   setPassword(passwordRef.current.value);
+  // };
 
   return (
     <div className="register">
