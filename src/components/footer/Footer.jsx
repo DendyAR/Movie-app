@@ -77,30 +77,21 @@ function Footer() {
           <div className="col-md-8 col-sm-6 col-xs-12">
             <p className="copyright-text">
               Copyright © 2017 All Rights Reserved by
-              <a href="#">Scanfcode</a>.
             </p>
           </div>
           <div className="col-md-4 col-sm-6 col-xs-12">
             <ul className="social-icons">
               <li>
-                <a className="facebook" href="#">
-                  <i className="fa fa-facebook" />
-                </a>
+                <i className="fa fa-facebook" />
               </li>
               <li>
-                <a className="twitter" href="#">
-                  <i className="fa fa-twitter" />
-                </a>
+                <i className="fa fa-twitter" />
               </li>
               <li>
-                <a className="dribbble" href="#">
-                  <i className="fa fa-dribbble" />
-                </a>
+                <i className="fa fa-dribbble" />
               </li>
               <li>
-                <a className="linkedin" href="#">
-                  <i className="fa fa-linkedin" />
-                </a>
+                <i className="fa fa-linkedin" />
               </li>
             </ul>
           </div>
